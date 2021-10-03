@@ -7,5 +7,7 @@ namespace LandonHotel.Repositories
     {
         IList<Room> GetRooms();
         Room GetRoom(int id);
+
+        void DeleteRooms();
     }
 }

@@ -34,5 +34,9 @@ namespace LandonHotel.Repositories
         {
             return roomList.SingleOrDefault(r => r.Id == id);
         }
+
+        public void DeleteRooms()
+        {
+        }
     }
 }
